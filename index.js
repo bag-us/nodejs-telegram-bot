@@ -1,13 +1,13 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = '6219629274:AAFhTwNv4yktuE66y2nKmv-fB_wzKnCLBV4';
+const token = 'xxxxxxxxx';
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
 
 
 // GROUP CHAT BOT
-const chatIdgroup = '-807193417';
+const chatIdgroup = '-xxx';
 // bot.sendMessage(chatIdgroup, 'Ini adalah pesan notifikasi yang dikirim dari bot Telegram.');
 const exec = require('child_process').exec;
 // Command to run
